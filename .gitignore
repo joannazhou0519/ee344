@@ -1,0 +1,68 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Editors & IDEs
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# Data (optional but common)
+# Comment these out if you want to track small example data
+data/
+data_raw/
+data_processed/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# -------------------------
+# Logs & Outputs
+# -------------------------
+logs/
+*.log
+output/
+outputs/
+results/
+figures/
+plots/
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Misc
+# -------------------------
+*.tmp
+*.temp
+*.bak
